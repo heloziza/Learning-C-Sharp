@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dotnetHelo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db8597de6eaf15a8a54f183bf2cd48f5325cbca7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc0dedda6e7232aec131747f3985053c2ec31fdb")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotnetHelo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotnetHelo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
