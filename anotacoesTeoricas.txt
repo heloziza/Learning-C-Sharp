@@ -29,3 +29,6 @@ quando atribuímos diretamente um valor à uma variável decimal, exemplo: "deci
 para não perder o 0 em um exemplo como: "double altura = 1.60;" na hora de printar pode-se estar fazendo o seguinte tratamento: "Console.WriteLine("Valor da variável altura: " + altura.ToString("0.00"));", mas o ideal seria estar utilizando decimal para não ter que ficar tratando posteriormente, por isso a escolha do tipo da variável implica tanto nos resultados
 
 variáveis são feitas para mudarem de valor durante o código, como o próprio nome já diz, não pode declarar uma variável com nome exatamente igual a outra no mesmo escopo de código
+
+para trabalhar com data no C# utilizamos DateTime como o exemplo a seguir:
+"DateTime dataAtual = DateTime.Now;", pode ser feita até soma de dias, meses, anos, milissegundos através do Add, como podemos ver a seguir o exeplo que pega a data e hora atual e soma 5 dias: "DateTime dataAtual = DateTime.Now.AddDays(5);", pode fazer data1 - data2, sempre utilizando DateTime. Tem com mudar a visualização da data utilizando: "Console.WriteLine(dataAtual.ToString("dd/MM/yyyy"));"
