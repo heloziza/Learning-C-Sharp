@@ -1,5 +1,10 @@
 -------------------------------- Conceitos teóricos abaixo
 
+Convenção: Nome de classe, propriedade e método -> Pascal Case (sem espaços, e primeira letra maiúscula)
+o nome do arquivo físico deve ser o mesmo nome da classe
+não pode abreviações, para ser o mais claro possível, ex: NomeRepLegalPessoaFis
+o certo seria: NomeRepresentanteLegalDaPessoaFisica (mesmo que seja grande)
+pra caso outra pessoa for fazer manutenção no seu código, ela conseguir entender
 nome de variável é Camel Case -> começa com minúscula e palavras compostas são escritas juntas sem espaços, com a primeira letra de cada palavra subsequentemente capitalizada
 sem caractere especial nos nomes, apenas underline é aceito
 
@@ -22,3 +27,5 @@ principais utilizados: string, object, bool, int, decimal e double
 quando atribuímos diretamente um valor à uma variável decimal, exemplo: "decimal preco = 1.99;" receberemos o seguinte erro: "Literal do tipo double não pode ser convertido implicitamente no tipo "decimal"; use um sufixo "M" para criar um literal desse tipo", então, quando for atribuir de forma literal deve-se utilizar o sufixo "M", resultando em: "decimal preco = 1.99M;"
 
 para não perder o 0 em um exemplo como: "double altura = 1.60;" na hora de printar pode-se estar fazendo o seguinte tratamento: "Console.WriteLine("Valor da variável altura: " + altura.ToString("0.00"));", mas o ideal seria estar utilizando decimal para não ter que ficar tratando posteriormente, por isso a escolha do tipo da variável implica tanto nos resultados
+
+variáveis são feitas para mudarem de valor durante o código, como o próprio nome já diz, não pode declarar uma variável com nome exatamente igual a outra no mesmo escopo de código
