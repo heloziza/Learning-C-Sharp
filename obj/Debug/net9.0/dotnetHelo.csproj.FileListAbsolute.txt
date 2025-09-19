@@ -12,3 +12,4 @@ C:\Users\helog\OneDrive\Área de Trabalho\dotnetHelo\obj\Debug\net9.0\refint\dot
 C:\Users\helog\OneDrive\Área de Trabalho\dotnetHelo\obj\Debug\net9.0\dotnetHelo.pdb
 C:\Users\helog\OneDrive\Área de Trabalho\dotnetHelo\obj\Debug\net9.0\dotnetHelo.genruntimeconfig.cache
 C:\Users\helog\OneDrive\Área de Trabalho\dotnetHelo\obj\Debug\net9.0\ref\dotnetHelo.dll
+C:\Users\helog\OneDrive\Área de Trabalho\dotnetHelo\obj\Debug\net9.0\dotnetHelo.sourcelink.json

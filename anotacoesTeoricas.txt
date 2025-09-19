@@ -1,0 +1,24 @@
+-------------------------------- Conceitos teóricos abaixo
+
+nome de variável é Camel Case -> começa com minúscula e palavras compostas são escritas juntas sem espaços, com a primeira letra de cada palavra subsequentemente capitalizada
+sem caractere especial nos nomes, apenas underline é aceito
+
+tipos de dados:
+string = série de caracteres
+char = um único caractere
+object = objeto
+bool = booleano (true or false)
+int = números inteiros (ele tem limite mas é alto)
+uint = a diferença entre int e uint é que uint usa os 32 bits pra representar numeros positivos
+long = inteiros que vão mais longe que int
+ulong é de 64 bit (o dobro de uint e é só positivos)
+byte vai de 0 a 255
+para números decimais:
+decimal é recomendável quando é dinheiro, é mais preciso quando se tem valores monetários
+float é para os decimais como o int é para os inteiros
+double é para os decimais como o long é para os inteiros
+principais utilizados: string, object, bool, int, decimal e double
+
+quando atribuímos diretamente um valor à uma variável decimal, exemplo: "decimal preco = 1.99;" receberemos o seguinte erro: "Literal do tipo double não pode ser convertido implicitamente no tipo "decimal"; use um sufixo "M" para criar um literal desse tipo", então, quando for atribuir de forma literal deve-se utilizar o sufixo "M", resultando em: "decimal preco = 1.99M;"
+
+para não perder o 0 em um exemplo como: "double altura = 1.60;" na hora de printar pode-se estar fazendo o seguinte tratamento: "Console.WriteLine("Valor da variável altura: " + altura.ToString("0.00"));", mas o ideal seria estar utilizando decimal para não ter que ficar tratando posteriormente, por isso a escolha do tipo da variável implica tanto nos resultados
