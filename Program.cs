@@ -1,38 +1,45 @@
 ﻿using dotnetHelo.Models;
 
-DateTime dataAtual = DateTime.Now;
-Console.WriteLine(dataAtual);
-Console.WriteLine(dataAtual.ToString("dd/MM/yyyy"));
+Calculadora calc = new Calculadora();
 
-dataAtual = DateTime.Now.AddDays(5);
-Console.WriteLine(dataAtual);
+calc.Somar(10, 5);
+calc.Subtrair(10, 5);
+calc.Multiplicar(10, 5);
+calc.Dividir(10, 5);
 
-string palavra = "15";
-int b = 0;
+// DateTime dataAtual = DateTime.Now;
+// Console.WriteLine(dataAtual);
+// Console.WriteLine(dataAtual.ToString("dd/MM/yyyy"));
 
-int.TryParse(palavra, out b);
+// dataAtual = DateTime.Now.AddDays(5);
+// Console.WriteLine(dataAtual);
 
-int quantidade1 = 10;
-int quantidade2 = 4;
-bool condicao = quantidade1 >= quantidade2;
-Console.WriteLine(condicao);
+// string palavra = "15";
+// int b = 0;
 
-Console.WriteLine("Digite uma letra: ");
-string letra = Console.ReadLine();
+// int.TryParse(palavra, out b);
 
-switch (letra)
-{
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-        Console.WriteLine(letra);
-        break;
-    default:
-        Console.WriteLine("Não é vogal");
-        break;
-}
+// int quantidade1 = 10;
+// int quantidade2 = 4;
+// bool condicao = quantidade1 >= quantidade2;
+// Console.WriteLine(condicao);
+
+// Console.WriteLine("Digite uma letra: ");
+// string letra = Console.ReadLine();
+
+// switch (letra)
+// {
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//         Console.WriteLine(letra);
+//         break;
+//     default:
+//         Console.WriteLine("Não é vogal");
+//         break;
+// }
 
 // string apresentacao = "Olá, seja bem vindo";
 
