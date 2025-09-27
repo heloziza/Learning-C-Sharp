@@ -7,6 +7,33 @@ Console.WriteLine(dataAtual.ToString("dd/MM/yyyy"));
 dataAtual = DateTime.Now.AddDays(5);
 Console.WriteLine(dataAtual);
 
+string palavra = "15";
+int b = 0;
+
+int.TryParse(palavra, out b);
+
+int quantidade1 = 10;
+int quantidade2 = 4;
+bool condicao = quantidade1 >= quantidade2;
+Console.WriteLine(condicao);
+
+Console.WriteLine("Digite uma letra: ");
+string letra = Console.ReadLine();
+
+switch (letra)
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine(letra);
+        break;
+    default:
+        Console.WriteLine("Não é vogal");
+        break;
+}
+
 // string apresentacao = "Olá, seja bem vindo";
 
 // int quantidade = 1;
