@@ -6,6 +6,12 @@ calc.Somar(10, 5);
 calc.Subtrair(10, 5);
 calc.Multiplicar(10, 5);
 calc.Dividir(10, 5);
+calc.Potencia(10, 5);
+calc.Seno(45);
+calc.Cosseno(45);
+calc.Tangente(45);
+calc.RaizQuadrada(9);
+
 
 // DateTime dataAtual = DateTime.Now;
 // Console.WriteLine(dataAtual);
