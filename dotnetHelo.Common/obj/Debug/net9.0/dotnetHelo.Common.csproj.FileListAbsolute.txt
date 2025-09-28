@@ -1,0 +1,12 @@
+C:\Users\helog\OneDrive\Área de Trabalho\dotnetHelo\dotnetHelo.Common\bin\Debug\net9.0\dotnetHelo.Common.deps.json
+C:\Users\helog\OneDrive\Área de Trabalho\dotnetHelo\dotnetHelo.Common\bin\Debug\net9.0\dotnetHelo.Common.dll
+C:\Users\helog\OneDrive\Área de Trabalho\dotnetHelo\dotnetHelo.Common\bin\Debug\net9.0\dotnetHelo.Common.pdb
+C:\Users\helog\OneDrive\Área de Trabalho\dotnetHelo\dotnetHelo.Common\obj\Debug\net9.0\dotnetHelo.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\helog\OneDrive\Área de Trabalho\dotnetHelo\dotnetHelo.Common\obj\Debug\net9.0\dotnetHelo.Common.AssemblyInfoInputs.cache
+C:\Users\helog\OneDrive\Área de Trabalho\dotnetHelo\dotnetHelo.Common\obj\Debug\net9.0\dotnetHelo.Common.AssemblyInfo.cs
+C:\Users\helog\OneDrive\Área de Trabalho\dotnetHelo\dotnetHelo.Common\obj\Debug\net9.0\dotnetHelo.Common.csproj.CoreCompileInputs.cache
+C:\Users\helog\OneDrive\Área de Trabalho\dotnetHelo\dotnetHelo.Common\obj\Debug\net9.0\dotnetHelo.Common.sourcelink.json
+C:\Users\helog\OneDrive\Área de Trabalho\dotnetHelo\dotnetHelo.Common\obj\Debug\net9.0\dotnetHelo.Common.dll
+C:\Users\helog\OneDrive\Área de Trabalho\dotnetHelo\dotnetHelo.Common\obj\Debug\net9.0\refint\dotnetHelo.Common.dll
+C:\Users\helog\OneDrive\Área de Trabalho\dotnetHelo\dotnetHelo.Common\obj\Debug\net9.0\dotnetHelo.Common.pdb
+C:\Users\helog\OneDrive\Área de Trabalho\dotnetHelo\dotnetHelo.Common\obj\Debug\net9.0\ref\dotnetHelo.Common.dll
