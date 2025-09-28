@@ -1,9 +1,72 @@
 ﻿using dotnetHelo.Common.Models;
 
-Pessoa pessoa1 = new Pessoa();
-pessoa1.Nome = "Helo";
-pessoa1.Idade = 20;
-pessoa1.Apresentar();
+
+List<string> listaString = new List<string>();
+
+listaString.Add("SP");
+listaString.Add("BA");
+listaString.Add("MG");
+listaString.Add("RJ");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+listaString.Add("SC");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+listaString.Remove("MG");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+Console.WriteLine("Percorrendo a lista com for");
+for (int contador = 0; contador < listaString.Count; contador++)
+{
+    Console.WriteLine($"Posição Nº {contador} - {listaString[contador]}");
+}
+
+Console.WriteLine("Percorrendo a lista com foreach");
+int contadorForeach = 0;
+foreach (string item in listaString)
+{
+    Console.WriteLine($"Posição Nº {contadorForeach} - {item}");
+    contadorForeach++;
+}
+
+
+
+
+
+
+
+// int[] arrayInteiros = new int[3];
+
+// arrayInteiros[0] = 72;
+// arrayInteiros[1] = 64;
+// arrayInteiros[2] = 50;
+
+// // Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
+// int arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+
+// Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+// Console.WriteLine("percorrendo o array com for") ;
+// for (int contador = 0; contador < arrayInteiros.Length; contador++)
+// {
+//     Console.WriteLine($"Posição número {contador} - {arrayInteiros[contador]}");
+// }
+
+// Console.WriteLine("percorrendo o array com foreach") ;
+// foreach (int valor in arrayInteiros)
+// {
+//     Console.WriteLine(valor);
+// }
+
+
+// Pessoa pessoa1 = new Pessoa();
+// pessoa1.Nome = "Helo";
+// pessoa1.Idade = 20;
+// pessoa1.Apresentar();
 
 
 // calc.Somar(10, 5);
