@@ -30,13 +30,7 @@ Aqui compartilho minhas anotações, exemplos práticos e dicas que vou aprenden
 ```csharp
 using System;
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello, World!");
-    }
-}
+Console.WriteLine("Hello, World!");
 ```
 
 ---
@@ -49,7 +43,8 @@ decimal preco = 1.99M;
 ```
 - Trabalhando com datas:
 ```csharp
-DateTime dataAtual = DateTime.Now.AddDays(5);
+DateTime dataAtual = DateTime.Now;
+DateTime dataAtualMaisCincoDias = DateTime.Now.AddDays(5);
 Console.WriteLine(dataAtual.ToString("dd/MM/yyyy"));
 ```
 
